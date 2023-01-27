@@ -3,7 +3,7 @@ const axios = require("axios");
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Content Loaded");
 
-  //   Gestion du formulaire
+  //Gestion du formulaire
 
   document.querySelector("form").addEventListener("submit", async (event) => {
     // empêcher le refresh de la page au submit
