@@ -1,3 +1,5 @@
+const axios = require("axios");
+
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Content Loaded");
 
