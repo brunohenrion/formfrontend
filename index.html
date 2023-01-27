@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Import du fichier Javascript -->
+    <script src="./assets/js/main.js"></script>
+    <!-- Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <form class="container">
+      <h1>Formulaire du contact</h1>
+      <label class="firstname">
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Firstname"
+          value="  Prénom"
+        />
+      </label>
+
+      <label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Lastname"
+          value="  Nom"
+      /></label>
+
+      <label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="email"
+          value="  Email"
+        />
+      </label>
+
+      <label>
+        <input
+          type="sujet"
+          name="sujet"
+          id="sujet"
+          placeholder="sujet"
+          value="  Sujet"
+        />
+      </label>
+
+      <label>
+        <textarea name="message" id="message" cols="30" rows="10">
+ Votre message ici... </textarea
+        >
+      </label>
+
+      <button type="submit">Envoyer le message</button>
+    </form>
+  </body>
+</html>
