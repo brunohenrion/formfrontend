@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // réquête vers le serveur en local
     const { data } = await axios.post(
-      "site--backform-project--zywd4pc2lg9z.code.run",
+      "https://site--backform-project--zywd4pc2lg9z.code.run",
       {
         firstname,
         lastname,
